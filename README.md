@@ -2,8 +2,7 @@
 ##Python-скрипт для захвата и записи видео с IP/USB камер с использованием OpenCV. 
 Поддерживает сохранение в различные форматы, корректное 
 освобождение ресурсов. Скрипт разработан по linux дистрибьютивы.
-##Установка зависимостей:
-Для корректной работы необходимо установить следующие библиотеки:
+Для корректной работы необходимо установить следующие библиотеки и пакеты:
 ```bash
 pip3 install opencv-python diffusers ultralytics 
 pip3 install pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2 
@@ -17,8 +16,12 @@ sudo apt install ./amdgpu-install_6.3.60303-1_all.deb
 sudo amdgpu-install --usecase=rocm
 sudo reboot
 ```
-Для проверки: 
+Для проверки rocm: 
 ```bash
 rocminfo
+```
+Также нужно создать виртуальное окружение:
+```bash
+python3 -m venv venv
 ```
 
