@@ -1,17 +1,4 @@
 # camera_parser
 Python-скрипт для захвата и записи видео с IP/USB камер с использованием OpenCV.  Поддерживает сохранение в различные форматы, обработку видео и корректное  освобождение ресурсов. Также поддерживает подсчёт количества людей на видео с помощью ии модели yolov8.
 Данный скрипт адаптирован для запуска на видеокартах амд, но при желании его можно адаптировать под работу на cpu, скрипт разработан под linux дистрибьютивы.
-Для корректной работы необходимо установить следующие библиотеки:
-```pip3 install opencv-python diffusers ultralytics ```
-```pip3 install pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2 ```
-Для работы на linux (debian) необходима установка rocm:
-```sudo apt update && sudo apt upgrade```
-```sudo usermod -a -G render,video $LOGNAME```
-```sudo apt install "linux-headers-$(uname -r)" "linux-modules-extra-$(uname -r)"```
-```sudo apt install python3-setuptools python3-wheel```
-```wget https://repo.radeon.com/amdgpu-install/6.3.3/ubuntu/noble/amdgpu-install_6.3.60303-1_all.deb```
-```sudo apt install ./amdgpu-install_6.3.60303-1_all.deb```
-```sudo amdgpu-install --usecase=rocm```
-```sudo reboot```
-Для проверки: 
-```rocminfo```
+
