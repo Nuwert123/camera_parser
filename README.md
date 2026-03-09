@@ -7,8 +7,8 @@
 pip3 install opencv-python diffusers ultralytics 
 pip3 install pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2
 ```
-```bash
 Для работы на linux (debian) необходима установка rocm:
+```bash
 sudo apt update && sudo apt upgrad
 sudo usermod -a -G render,video $LOGNAME
 sudo apt install "linux-headers-$(uname -r)" "linux-modules-extra-$(uname -r)"
