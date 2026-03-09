@@ -1,4 +1,7 @@
 # camera_parser
+#Python-скрипт для захвата и записи видео с IP/USB камер с использованием OpenCV. 
+#Поддерживает сохранение в различные форматы, корректное 
+#освобождение ресурсов. Скрипт разработан по linux дистрибьютивы.
 Для корректной работы необходимо установить следующие библиотеки:
 ```pip3 install opencv-python diffusers ultralytics ```
 ```pip3 install pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2 ```
