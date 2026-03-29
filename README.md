@@ -5,7 +5,7 @@
 Для корректной работы необходимо установить следующие библиотеки и пакеты (debian):
 ```bash
 pip3 install opencv-python diffusers ultralytics 
-pip3 install pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2
 ```
 Для работы на linux (debian) необходима установка rocm:
 ```bash
